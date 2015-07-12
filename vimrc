@@ -3,6 +3,9 @@ set nocompatible " This must be first, because it changes other options
 
 set number
 
+" A don't give the ATTENTION message when an existing swap file is found.
+set shortmess+=A
+
 " Add full file path to your existing statusline
 set statusline+=%F
 set laststatus=2
